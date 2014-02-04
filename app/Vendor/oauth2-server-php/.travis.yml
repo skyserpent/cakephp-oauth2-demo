@@ -1,0 +1,24 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+
+env:
+  - SKIP_MONGO_TESTS=1
+
+services:
+  - mongodb
+  - redis-server
+  - cassandra
+
+before_script:
+  - echo "extension = mongo.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - composer require predis/predis:dev-master
+  - composer require thobbs/phpcassa:dev-master
+
+after_failure:
+  - ps ax | grep mongo
+  - cat /etc/mongodb.conf
+  - cat /var/log/mongodb/mongodb.log
