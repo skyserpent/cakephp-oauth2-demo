@@ -11,8 +11,16 @@ design.
 
 INSTALLATION
 ============
-1. Setup your db - https://gist.github.com/qsoomro/8799315
 
-2. Add a user by going to "http://localhost/oauthapp/users/add"
+1. Use [Composer](http://getcomposer.org/) to install this application:
 
-3. Direct your browser to "http://localhost/oauthapp" to visit the main page.
+    $ git clone git://github.com/bshaffer/oauth2-demo-php.git
+    $ cd oauth2-demo-php
+    $ curl -s http://getcomposer.org/installer | php
+    $ ./composer.phar install
+
+2. Setup your db - https://gist.github.com/qsoomro/8799315
+
+3. Add a user by going to "http://localhost/oauthapp/users/add"
+
+4. Direct your browser to "http://localhost/oauthapp" to visit the main page.

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "bshaffer/oauth2-server-php": "v1.0"
+    },
+    "minimum-stability": "dev"
+}

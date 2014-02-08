@@ -12278,3 +12278,23 @@ Request URL: /oauthapp/client/request_token/signin.css
 Stack Trace:
 #0 C:\xampp\htdocs\oauthapp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-02-05 19:19:20 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../Vendor/oauth2-server-php/src/OAuth2/Controller/AuthorizeControllerInterface.php' (include_path='.:') in [/Library/WebServer/cakephp-oauth2-demo/app/Controller/Component/ServerComponent.php, line 4]
+2014-02-05 19:19:20 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../Vendor/oauth2-server-php/src/OAuth2/Controller/AuthorizeControllerInterface.php' (include_path='.:')
+Request URL: /
+Stack Trace:
+#0 /Library/WebServer/cakephp-oauth2-demo/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Library/WebSer...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Library/WebSer...', 4, Array)
+#2 /Library/WebServer/cakephp-oauth2-demo/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Library/WebSer...', 4, Array)
+#3 /Library/WebServer/cakephp-oauth2-demo/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-05 19:24:33 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../Vendor/oauth2-server-php/src/OAuth2/Controller/AuthorizeControllerInterface.php' (include_path='.:') in [/Library/WebServer/cakephp-oauth2-demo/app/Controller/Component/ServerComponent.php, line 4]
+2014-02-05 19:24:33 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../Vendor/oauth2-server-php/src/OAuth2/Controller/AuthorizeControllerInterface.php' (include_path='.:')
+Request URL: /
+Stack Trace:
+#0 /Library/WebServer/cakephp-oauth2-demo/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Library/WebSer...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Library/WebSer...', 4, Array)
+#2 /Library/WebServer/cakephp-oauth2-demo/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Library/WebSer...', 4, Array)
+#3 /Library/WebServer/cakephp-oauth2-demo/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
