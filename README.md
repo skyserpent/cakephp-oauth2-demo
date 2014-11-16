@@ -14,12 +14,12 @@ INSTALLATION
 
 1. Use [Composer](http://getcomposer.org/) to install this application:
 
-    $ git clone git://github.com/bshaffer/oauth2-demo-php.git
+    $ git clone git://github.com/skyserpent/cakephp-oauth2-demo.git
     $ cd oauth2-demo-php
     $ curl -s http://getcomposer.org/installer | php
     $ ./composer.phar install
 
-2. Setup your db - https://gist.github.com/qsoomro/8799315
+2. Setup your db - https://gist.github.com/skyserpent/8799315
 
 3. Add a user by going to "http://localhost/oauthapp/users/add"
 
