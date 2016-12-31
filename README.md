@@ -5,7 +5,9 @@ A demo for an application running OAuth2 server.
 
 NOTICE
 ======
-A very early stage project. Make sure you specifically set up your app in "http://localhost/oauthapp" directory. As of right now,
+Project is not maintained any longer. Feel welcome to fork and continue development. 
+
+An early stage project. Make sure you specifically set up your app in "http://localhost/oauthapp" directory. As of right now,
 I am trying to get the user credentials to work in conjunction with CakePHP's system. Once that's complete, I will refactor the code
 design.
 
